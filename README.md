@@ -17,9 +17,9 @@
 
 <img src = "assets/img1.png">
 
-### -Input: n = 6, edges = [[0,2,2],[0,5,6],[1,0,3],[1,4,5],[2,1,1],[2,3,3],[2,3,4],[3,4,2],[4,5,1]], src1 = 0, src2 = 1, dest = 5
-### - Output: 9
-### - Explanation:
+#### -Input: n = 6, edges = [[0,2,2],[0,5,6],[1,0,3],[1,4,5],[2,1,1],[2,3,3],[2,3,4],[3,4,2],[4,5,1]], src1 = 0, src2 = 1, dest = 5
+#### - Output: 9
+#### - Explanation:
 
         The above figure represents the input graph.
         The blue edges represent one of the subgraphs that yield the optimal answer. 
