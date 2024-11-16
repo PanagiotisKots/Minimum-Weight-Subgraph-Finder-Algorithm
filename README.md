@@ -47,21 +47,20 @@
 ## Constraints:
 
     - 3 <= n <= 105
-
-=======================
+---
 
     - 0 <= edges.length <= 105
-
+---
     - edges[i].length == 3
- 
+--- 
     - 0 <= fromi, toi, src1, src2, dest <= n - 1
-
+---
     - fromi != toi
-
+---
     - src1, src2, and dest are pairwise distinct.
-
+---
     - 1 <= weight[i] <= 105
-
+---
 
 
 
