@@ -11,38 +11,45 @@
 - A subgraph is a graph whose vertices and edges are subsets of the original graph. The weight of a subgraph is the sum of weights of its constituent edges.
 
 
+<br>
 
-Example 1:
+## Example 1:
 
 <img src = "assets/img1.png">
 
-Input: n = 6, edges = [[0,2,2],[0,5,6],[1,0,3],[1,4,5],[2,1,1],[2,3,3],[2,3,4],[3,4,2],[4,5,1]], src1 = 0, src2 = 1, dest = 5
-Output: 9
-Explanation:
-The above figure represents the input graph.
-The blue edges represent one of the subgraphs that yield the optimal answer.
-Note that the subgraph [[1,0,3],[0,5,6]] also yields the optimal answer. It is not possible to get a subgraph with less weight satisfying all the constraints.
+- Input: n = 6, edges = [[0,2,2],[0,5,6],[1,0,3],[1,4,5],[2,1,1],[2,3,3],[2,3,4],[3,4,2],[4,5,1]], src1 = 0, src2 = 1, dest = 5
+- Output: 9
+- Explanation:
 
-Example 2:
+        The above figure represents the input graph.
+        The blue edges represent one of the subgraphs that yield the optimal answer.
+        Note that the subgraph [[1,0,3],[0,5,6]] also yields the optimal answer. It is not possible to get a subgraph with less weight satisfying all the constraints.
+
+
+<br>
+
+
+## Example 2:
 
 <img src = "assets/img2.png">
 
-Input: n = 3, edges = [[0,1,1],[2,1,1]], src1 = 0, src2 = 1, dest = 2
-Output: -1
-Explanation:
-The above figure represents the input graph.
-It can be seen that there does not exist any path from node 1 to node 2, hence there are no subgraphs satisfying all the constraints.
+- Input: n = 3, edges = [[0,1,1],[2,1,1]], src1 = 0, src2 = 1, dest = 2
+- Output: -1
+- Explanation:
+
+        The above figure represents the input graph.
+        It can be seen that there does not exist any path from node 1 to node 2, hence there are no subgraphs satisfying all the constraints.
 
 
 
 Constraints:
 
-    3 <= n <= 105
-    0 <= edges.length <= 105
-    edges[i].length == 3
-    0 <= fromi, toi, src1, src2, dest <= n - 1
-    fromi != toi
-    src1, src2, and dest are pairwise distinct.
-    1 <= weight[i] <= 105
+- 3 <= n <= 105
+- 0 <= edges.length <= 105
+- edges[i].length == 3
+- 0 <= fromi, toi, src1, src2, dest <= n - 1
+- fromi != toi
+- src1, src2, and dest are pairwise distinct.
+- 1 <= weight[i] <= 105
 
-make me this readme have 10 times better markdown code
+
