@@ -21,9 +21,10 @@
 - Output: 9
 - Explanation:
 
-        The above figure represents the input graph. <br>
-        The blue edges represent one of the subgraphs that yield the optimal answer. <br>
-        Note that the subgraph [[1,0,3],[0,5,6]] also yields the optimal answer. It is not possible to get a subgraph with less weight satisfying all the constraints. <br>
+        The above figure represents the input graph.
+        The blue edges represent one of the subgraphs that yield the optimal answer. 
+        Note that the subgraph [[1,0,3],[0,5,6]] also yields the optimal answer.
+        It is not possible to get a subgraph with less weight satisfying all the constraints. 
 
 
 <br>
@@ -37,8 +38,9 @@
 - Output: -1
 - Explanation:
 
-        The above figure represents the input graph. <br>
-        It can be seen that there does not exist any path from node 1 to node 2,  <br> hence there are no subgraphs satisfying all the constraints.
+        The above figure represents the input graph. 
+        It can be seen that there does not exist any path from node 1 to node 2
+        hence there are no subgraphs satisfying all the constraints.
 
 
 
