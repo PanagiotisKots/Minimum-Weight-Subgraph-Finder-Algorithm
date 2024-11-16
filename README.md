@@ -47,8 +47,8 @@
 ## Constraints:
 
     - 3 <= n <= 105
+<hr style="border: none; border-top: 1px solid #ccc; margin: 10px 0;">
 
----
     - 0 <= edges.length <= 105
 
     - edges[i].length == 3
