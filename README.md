@@ -55,3 +55,10 @@
 - 1 <= weight[i] <= 105
 
 
+
+
+
+> **Note**: The above problem is based on the [LeetCode 2203. Minimum Weighted Subgraph With the Required Paths](https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths/) problem.  
+> The entire algorithm was implemented and designed specifically for this [LeetCode problem](https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths/).
+
+
