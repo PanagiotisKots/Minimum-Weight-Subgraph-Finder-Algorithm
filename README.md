@@ -48,6 +48,7 @@
 
     - 3 <= n <= 105
 
+---
     - 0 <= edges.length <= 105
 
     - edges[i].length == 3
